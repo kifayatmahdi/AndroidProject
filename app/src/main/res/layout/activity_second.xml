@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Second Activity"
+        android:layout_margin="5dp"
+        android:background="#CC0066"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#404040"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="You have successfully come."
+        android:layout_marginTop="200dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#CC6699"
+        />
+
+</LinearLayout>
